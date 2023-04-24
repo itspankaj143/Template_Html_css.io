@@ -1,0 +1,72 @@
+
+
+.carousel-item img{
+
+    /* border: 1px solid red; */
+    height: 90vh;
+
+}
+
+.carousel-caption{
+
+    color: black;
+}
+
+.carousel-caption h5{
+
+    font-size: 7rem;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.carousel-caption p{
+
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.products-cols{
+
+    /* border: 1px solid red; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+
+    height: 40vh;
+}
+
+.card:hover{
+
+    box-shadow: 10px 10px 15px rgb(196, 196, 196);    
+    cursor: pointer;
+    
+}
+
+
+.demo-container{
+
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/gettyimages-1666286109.jpg?crop=1.00xw:0.752xh;0,0.115xh&resize=640:*');
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+}
+
+
+@media screen and (max-width: 375px){
+
+
+    .demo-container{
+
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+}
